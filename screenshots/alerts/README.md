@@ -1,0 +1,1 @@
+Generated security alert screenshots.
