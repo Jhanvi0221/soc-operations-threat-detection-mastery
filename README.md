@@ -2,15 +2,15 @@
 
 ## Overview
 
-This repository documents hands-on SOC Operations and Threat Detection activities performed using Wazuh SIEM.
+This repository documents hands-on Security Operations Center (SOC) activities performed using the Wazuh SIEM platform in a controlled laboratory environment.
 
-The project demonstrates endpoint monitoring, log analysis, brute force detection, malware simulation, custom rule creation, and incident investigation.
+The project demonstrates SIEM deployment, endpoint monitoring, log analysis, brute-force detection, malware detection, dashboard creation, alert investigation, and incident reporting.
 
 ---
 
 ## Disclaimer
 
-This project was performed inside an isolated laboratory environment for educational purposes only.
+This project was performed in an isolated laboratory environment for educational purposes only.
 
 No production systems or unauthorized targets were tested.
 
@@ -28,14 +28,14 @@ No production systems or unauthorized targets were tested.
 
 ## Skills Demonstrated
 
-- SIEM Monitoring
+- SIEM Deployment
+- Endpoint Monitoring
 - Threat Detection
-- Incident Analysis
-- Endpoint Security
 - Log Analysis
-- Rule Creation
+- Alert Investigation
 - Malware Detection
 - Brute Force Detection
+- Dashboard Creation
 - Incident Reporting
 
 ---
@@ -44,8 +44,19 @@ No production systems or unauthorized targets were tested.
 
 ```
 soc-operations-threat-detection-mastery/
-
+│
 ├── screenshots/
-
-├── README.md
+│   ├── agents/
+│   ├── alerts/
+│   ├── brute-force/
+│   ├── dashboard/
+│   ├── malware/
+│   ├── reports/
+│   └── README.md
+│
+└── README.md
 ```
+
+---
+
+This repository showcases practical SOC monitoring, threat detection, and SIEM operations using Wazuh.
