@@ -1,0 +1,1 @@
+Custom Wazuh rule screenshots.
